@@ -1,0 +1,1503 @@
+{
+ "$schema": "http://json-schema.org/draft-04/schema#",
+ "type": "object",
+ "properties": {
+  "userdetails": {
+   "type": "object",
+   "properties": {
+    "basicdetails": {
+     "type": "object",
+     "properties": {
+      "basicdetail": {
+       "type": "array",
+       "items": [
+        {
+         "type": "object",
+
+         "properties": {
+          "userid": {
+           "type": "string"
+          },
+          "userstatus": {
+           "type": "string"
+          },
+          "authenticationstatusid": {
+           "type": "string"
+          },
+          "pgsuccesscode": {
+           "type": "string"
+          },
+          "paytmsuccesscode": {
+           "type": "string"
+          },
+          "accountno": {
+           "type": "string"
+          },
+          "accountobj": {
+           "type": "string"
+          },
+          "mobilenumber": {
+           "type": "string"
+          },
+          "rmn": {
+           "type": "string"
+          },
+          "emailid": {
+           "type": "string"
+          },
+          "firstname": {
+           "type": "string"
+          },
+          "lastname": {
+           "type": "string"
+          },
+          "middlename": {
+           "type": "string"
+          },
+          "address": {
+           "type": "string"
+          },
+          "city": {
+           "type": "string"
+          },
+          "state": {
+           "type": "string"
+          },
+          "country": {
+           "type": "string"
+          },
+          "zip": {
+           "type": "string"
+          },
+          "status": {
+           "type": "string"
+          },
+          "lcotype": {
+           "type": "string"
+          },
+          "lconame": {
+           "type": "string"
+          },
+          "lcocompany": {
+           "type": "string"
+          },
+          "lcocity": {
+           "type": "string"
+          },
+          "LCOBRMPOID": {
+           "type": "string"
+          },
+          "lconumber": {
+           "type": "string"
+          },
+          "useroperatorid": {
+           "type": "string"
+          },
+          "lcopgname": {
+           "type": "string"
+          },
+          "hasgroupaddon": {
+           "type": "string"
+          },
+          "enablepayment": {
+           "type": "string"
+          },
+          "appversion": {
+           "type": "string"
+          },
+          "appversiontext": {
+           "type": "string"
+          },
+          "issplitenabled": {
+           "type": "string"
+          },
+          "enablebill": {
+           "type": "string"
+          },
+          "gstpercentage": {
+           "type": "string"
+          },
+          "etvalue": {
+           "type": "string"
+          },
+          "appforceupdate": {
+           "type": "string"
+          },
+          "applicationplatformtype": {
+           "type": "string"
+          },
+          "isspecialservicesenabled": {
+           "type": "string"
+          },
+          "basepackonlinediscount": {
+           "type": "string"
+          },
+          "hathwaymerchantid": {
+           "type": "string"
+          },
+          "lcomerchantid": {
+           "type": "string"
+          },
+          "companycode": {
+           "type": "string"
+          },
+          "companyname": {
+           "type": "string"
+          },
+          "enablegstn": {
+           "type": "string"
+          },
+          "gstnurl": {
+           "type": "string"
+          },
+          "issamefamily": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "userid",
+          "userstatus",
+          "authenticationstatusid",
+          "pgsuccesscode",
+          "paytmsuccesscode",
+          "accountno",
+          "accountobj",
+          "mobilenumber",
+          "rmn",
+          "emailid",
+          "firstname",
+          "lastname",
+          "middlename",
+          "address",
+          "city",
+          "state",
+          "country",
+          "zip",
+          "status",
+          "lcotype",
+          "lconame",
+          "lcocompany",
+          "lcocity",
+          "LCOBRMPOID",
+          "lconumber",
+          "useroperatorid",
+          "lcopgname",
+          "hasgroupaddon",
+          "enablepayment",
+          "appversion",
+          "appversiontext",
+          "issplitenabled",
+          "enablebill",
+          "gstpercentage",
+          "etvalue",
+          "appforceupdate",
+          "applicationplatformtype",
+          "isspecialservicesenabled",
+          "basepackonlinediscount",
+          "hathwaymerchantid",
+          "lcomerchantid",
+          "companycode",
+          "companyname",
+          "enablegstn",
+          "gstnurl",
+          "issamefamily"
+         ]
+        }
+       ]
+      }
+     },
+     "required": [
+      "basicdetail"
+     ]
+    },
+    "services": {
+     "type": "object",
+     "properties": {
+      "service": {
+       "type": "array",
+       "items": [
+        {
+         "type": "object",
+         "properties": {
+          "devicedetails": {
+           "type": "object",
+           "properties": {
+            "devicedetail": {
+             "type": "array",
+             "items": [
+              {
+               "type": "object",
+               "properties": {
+                "deviceid": {
+                 "type": "string"
+                },
+                "smartcardno": {
+                 "type": "string"
+                },
+                "servicetype": {
+                 "type": "string"
+                },
+                "devicetype": {
+                 "type": "string"
+                },
+                "stateid": {
+                 "type": "string"
+                },
+                "servicesid": {
+                 "type": "string"
+                },
+                "servicesaccountobj": {
+                 "type": "string"
+                },
+                "servicespoid": {
+                 "type": "string"
+                },
+                "connectiontype": {
+                 "type": "string"
+                },
+                "hardwaretype": {
+                 "type": "string"
+                },
+                "discountamount": {
+                 "type": "string"
+                }
+               },
+               "required": [
+                "deviceid",
+                "smartcardno",
+                "servicetype",
+                "devicetype",
+                "stateid",
+                "servicesid",
+                "servicesaccountobj",
+                "servicespoid",
+                "connectiontype",
+                "hardwaretype",
+                "discountamount"
+               ]
+              }
+             ]
+            }
+           },
+           "required": [
+            "devicedetail"
+           ]
+          },
+          "plandetails": {
+           "type": "object",
+           "properties": {
+            "basepack": {
+             "type": "object",
+             "properties": {
+              "planinfo": {
+               "type": "array",
+               "items": [
+                {
+                 "type": "object",
+                 "properties": {
+                  "dealid": {
+                   "type": "string"
+                  },
+                  "packname": {
+                   "type": "string"
+                  },
+                  "familyid": {
+                   "type": "string"
+                  },
+                  "planpoid": {
+                   "type": "string"
+                  },
+                  "productname": {
+                   "type": "string"
+                  },
+                  "productid": {
+                   "type": "string"
+                  },
+                  "amount": {
+                   "type": "string"
+                  },
+                  "eventdescription": {
+                   "type": "string"
+                  },
+                  "packagename": {
+                   "type": "string"
+                  },
+                  "packtype": {
+                   "type": "string"
+                  },
+                  "periodinmonths": {
+                   "type": "string"
+                  },
+                  "periodindays": {
+                   "type": "string"
+                  },
+                  "packversionid": {
+                   "type": "string"
+                  },
+                  "servicesid": {
+                   "type": "string"
+                  },
+                  "monthcount": {
+                   "type": "string"
+                  },
+                  "fromdate": {
+                   "type": "string"
+                  },
+                  "todate": {
+                   "type": "string"
+                  },
+                  "planexpirytext": {
+                   "type": "string"
+                  },
+                  "isrenew": {
+                   "type": "string"
+                  },
+                  "planobj": {
+                   "type": "string"
+                  },
+                  "productspoid": {
+                   "type": "string"
+                  },
+                  "fdp": {
+                   "type": "string"
+                  },
+                  "packageid": {
+                   "type": "string"
+                  },
+                  "isfree": {
+                   "type": "string"
+                  },
+                  "groupname": {
+                   "type": "string"
+                  },
+                  "freeaddoncount": {
+                   "type": "string"
+                  },
+                  "discountamount": {
+                   "type": "string"
+                  },
+                  "etamount": {
+                   "type": "string"
+                  },
+                  "planstatus": {
+                   "type": "string"
+                  },
+                  "mappeddealcode": {
+                   "type": "string"
+                  },
+                  "payableamount": {
+                   "type": "string"
+                  },
+                  "basepackonlinediscount": {
+                   "type": "string"
+                  }
+                 },
+                 "required": [
+                  "dealid",
+                  "packname",
+                  "familyid",
+                  "planpoid",
+                  "productname",
+                  "productid",
+                  "amount",
+                  "eventdescription",
+                  "packagename",
+                  "packtype",
+                  "periodinmonths",
+                  "periodindays",
+                  "packversionid",
+                  "servicesid",
+                  "monthcount",
+                  "fromdate",
+                  "todate",
+                  "planexpirytext",
+                  "isrenew",
+                  "planobj",
+                  "productspoid",
+                  "fdp",
+                  "packageid",
+                  "isfree",
+                  "groupname",
+                  "freeaddoncount",
+                  "discountamount",
+                  "etamount",
+                  "planstatus",
+                  "mappeddealcode",
+                  "payableamount",
+                  "basepackonlinediscount"
+                 ]
+                }
+               ]
+              },
+              "basepacktotal": {
+               "type": "string"
+              }
+             },
+             "required": [
+              "planinfo",
+              "basepacktotal"
+             ]
+            },
+            "freeaddon": {
+             "type": "object",
+             "properties": {
+              "planinfo": {
+               "type": "array",
+               "items": [
+                {
+                 "type": "object",
+                 "properties": {
+                  "dealid": {
+                   "type": "string"
+                  },
+                  "packname": {
+                   "type": "string"
+                  },
+                  "familyid": {
+                   "type": "string"
+                  },
+                  "planpoid": {
+                   "type": "string"
+                  },
+                  "productname": {
+                   "type": "string"
+                  },
+                  "productid": {
+                   "type": "string"
+                  },
+                  "amount": {
+                   "type": "string"
+                  },
+                  "eventdescription": {
+                   "type": "string"
+                  },
+                  "packagename": {
+                   "type": "string"
+                  },
+                  "packtype": {
+                   "type": "string"
+                  },
+                  "periodinmonths": {
+                   "type": "string"
+                  },
+                  "periodindays": {
+                   "type": "string"
+                  },
+                  "packversionid": {
+                   "type": "string"
+                  },
+                  "servicesid": {
+                   "type": "string"
+                  },
+                  "monthcount": {
+                   "type": "string"
+                  },
+                  "fromdate": {
+                   "type": "string"
+                  },
+                  "todate": {
+                   "type": "string"
+                  },
+                  "planexpirytext": {
+                   "type": "string"
+                  },
+                  "isrenew": {
+                   "type": "string"
+                  },
+                  "planobj": {
+                   "type": "string"
+                  },
+                  "productspoid": {
+                   "type": "string"
+                  },
+                  "fdp": {
+                   "type": "string"
+                  },
+                  "packageid": {
+                   "type": "string"
+                  },
+                  "isfree": {
+                   "type": "string"
+                  },
+                  "groupname": {
+                   "type": "string"
+                  },
+                  "discountamount": {
+                   "type": "string"
+                  },
+                  "etamount": {
+                   "type": "string"
+                  },
+                  "planstatus": {
+                   "type": "string"
+                  },
+                  "mappeddealcode": {
+                   "type": "string"
+                  },
+                  "payableamount": {
+                   "type": "string"
+                  },
+                  "basepackonlinediscount": {
+                   "type": "string"
+                  }
+                 },
+                 "required": [
+                  "dealid",
+                  "packname",
+                  "familyid",
+                  "planpoid",
+                  "productname",
+                  "productid",
+                  "amount",
+                  "eventdescription",
+                  "packagename",
+                  "packtype",
+                  "periodinmonths",
+                  "periodindays",
+                  "packversionid",
+                  "servicesid",
+                  "monthcount",
+                  "fromdate",
+                  "todate",
+                  "planexpirytext",
+                  "isrenew",
+                  "planobj",
+                  "productspoid",
+                  "fdp",
+                  "packageid",
+                  "isfree",
+                  "groupname",
+                  "discountamount",
+                  "etamount",
+                  "planstatus",
+                  "mappeddealcode",
+                  "payableamount",
+                  "basepackonlinediscount"
+                 ]
+                },
+                {
+                 "type": "object",
+                 "properties": {
+                  "dealid": {
+                   "type": "string"
+                  },
+                  "packname": {
+                   "type": "string"
+                  },
+                  "familyid": {
+                   "type": "string"
+                  },
+                  "planpoid": {
+                   "type": "string"
+                  },
+                  "productname": {
+                   "type": "string"
+                  },
+                  "productid": {
+                   "type": "string"
+                  },
+                  "amount": {
+                   "type": "string"
+                  },
+                  "eventdescription": {
+                   "type": "string"
+                  },
+                  "packagename": {
+                   "type": "string"
+                  },
+                  "packtype": {
+                   "type": "string"
+                  },
+                  "periodinmonths": {
+                   "type": "string"
+                  },
+                  "periodindays": {
+                   "type": "string"
+                  },
+                  "packversionid": {
+                   "type": "string"
+                  },
+                  "servicesid": {
+                   "type": "string"
+                  },
+                  "monthcount": {
+                   "type": "string"
+                  },
+                  "fromdate": {
+                   "type": "string"
+                  },
+                  "todate": {
+                   "type": "string"
+                  },
+                  "planexpirytext": {
+                   "type": "string"
+                  },
+                  "isrenew": {
+                   "type": "string"
+                  },
+                  "planobj": {
+                   "type": "string"
+                  },
+                  "productspoid": {
+                   "type": "string"
+                  },
+                  "fdp": {
+                   "type": "string"
+                  },
+                  "packageid": {
+                   "type": "string"
+                  },
+                  "isfree": {
+                   "type": "string"
+                  },
+                  "groupname": {
+                   "type": "string"
+                  },
+                  "discountamount": {
+                   "type": "string"
+                  },
+                  "etamount": {
+                   "type": "string"
+                  },
+                  "planstatus": {
+                   "type": "string"
+                  },
+                  "mappeddealcode": {
+                   "type": "string"
+                  },
+                  "payableamount": {
+                   "type": "string"
+                  },
+                  "basepackonlinediscount": {
+                   "type": "string"
+                  }
+                 },
+                 "required": [
+                  "dealid",
+                  "packname",
+                  "familyid",
+                  "planpoid",
+                  "productname",
+                  "productid",
+                  "amount",
+                  "eventdescription",
+                  "packagename",
+                  "packtype",
+                  "periodinmonths",
+                  "periodindays",
+                  "packversionid",
+                  "servicesid",
+                  "monthcount",
+                  "fromdate",
+                  "todate",
+                  "planexpirytext",
+                  "isrenew",
+                  "planobj",
+                  "productspoid",
+                  "fdp",
+                  "packageid",
+                  "isfree",
+                  "groupname",
+                  "discountamount",
+                  "etamount",
+                  "planstatus",
+                  "mappeddealcode",
+                  "payableamount",
+                  "basepackonlinediscount"
+                 ]
+                },
+                {
+                 "type": "object",
+                 "properties": {
+                  "dealid": {
+                   "type": "string"
+                  },
+                  "packname": {
+                   "type": "string"
+                  },
+                  "familyid": {
+                   "type": "string"
+                  },
+                  "planpoid": {
+                   "type": "string"
+                  },
+                  "productname": {
+                   "type": "string"
+                  },
+                  "productid": {
+                   "type": "string"
+                  },
+                  "amount": {
+                   "type": "string"
+                  },
+                  "eventdescription": {
+                   "type": "string"
+                  },
+                  "packagename": {
+                   "type": "string"
+                  },
+                  "packtype": {
+                   "type": "string"
+                  },
+                  "periodinmonths": {
+                   "type": "string"
+                  },
+                  "periodindays": {
+                   "type": "string"
+                  },
+                  "packversionid": {
+                   "type": "string"
+                  },
+                  "servicesid": {
+                   "type": "string"
+                  },
+                  "monthcount": {
+                   "type": "string"
+                  },
+                  "fromdate": {
+                   "type": "string"
+                  },
+                  "todate": {
+                   "type": "string"
+                  },
+                  "planexpirytext": {
+                   "type": "string"
+                  },
+                  "isrenew": {
+                   "type": "string"
+                  },
+                  "planobj": {
+                   "type": "string"
+                  },
+                  "productspoid": {
+                   "type": "string"
+                  },
+                  "fdp": {
+                   "type": "string"
+                  },
+                  "packageid": {
+                   "type": "string"
+                  },
+                  "isfree": {
+                   "type": "string"
+                  },
+                  "groupname": {
+                   "type": "string"
+                  },
+                  "discountamount": {
+                   "type": "string"
+                  },
+                  "etamount": {
+                   "type": "string"
+                  },
+                  "planstatus": {
+                   "type": "string"
+                  },
+                  "mappeddealcode": {
+                   "type": "string"
+                  },
+                  "payableamount": {
+                   "type": "string"
+                  },
+                  "basepackonlinediscount": {
+                   "type": "string"
+                  }
+                 },
+                 "required": [
+                  "dealid",
+                  "packname",
+                  "familyid",
+                  "planpoid",
+                  "productname",
+                  "productid",
+                  "amount",
+                  "eventdescription",
+                  "packagename",
+                  "packtype",
+                  "periodinmonths",
+                  "periodindays",
+                  "packversionid",
+                  "servicesid",
+                  "monthcount",
+                  "fromdate",
+                  "todate",
+                  "planexpirytext",
+                  "isrenew",
+                  "planobj",
+                  "productspoid",
+                  "fdp",
+                  "packageid",
+                  "isfree",
+                  "groupname",
+                  "discountamount",
+                  "etamount",
+                  "planstatus",
+                  "mappeddealcode",
+                  "payableamount",
+                  "basepackonlinediscount"
+                 ]
+                }
+               ]
+              },
+              "freeaddontotal": {
+               "type": "string"
+              },
+              "freeaddondiscounttotal": {
+               "type": "string"
+              },
+              "freeaddonfinaltotal": {
+               "type": "string"
+              },
+              "freeaddoncount": {
+               "type": "string"
+              }
+             },
+             "required": [
+              "planinfo",
+              "freeaddontotal",
+              "freeaddondiscounttotal",
+              "freeaddonfinaltotal",
+              "freeaddoncount"
+             ]
+            },
+            "addon": {
+             "type": "null"
+            },
+            "alacart": {
+             "type": "null"
+            }
+           },
+           "required": [
+            "basepack",
+            "freeaddon",
+            "addon",
+            "alacart"
+           ]
+          },
+          "planexpirydetails": {
+           "type": "object",
+           "properties": {
+            "planexpirydetail": {
+             "type": "array",
+             "items": [
+              {
+               "type": "object",
+               "properties": {
+                "packname": {
+                 "type": "string"
+                },
+                "planpoid": {
+                 "type": "string"
+                },
+                "plancalltype": {
+                 "type": "string"
+                },
+                "dealobj": {
+                 "type": "string"
+                },
+                "planduration": {
+                 "type": "string"
+                },
+                "servicesid": {
+                 "type": "string"
+                },
+                "servicesaccountobj": {
+                 "type": "string"
+                },
+                "servicespoid": {
+                 "type": "string"
+                },
+                "planobj": {
+                 "type": "string"
+                },
+                "productspoid": {
+                 "type": "string"
+                },
+                "amount": {
+                 "type": "string"
+                },
+                "packagename": {
+                 "type": "string"
+                },
+                "deviceid": {
+                 "type": "string"
+                },
+                "servicetype": {
+                 "type": "string"
+                },
+                "planexpirydate": {
+                 "type": "string"
+                },
+                "packageid": {
+                 "type": "string"
+                },
+                "connectiontype": {
+                 "type": "string"
+                },
+                "isfree": {
+                 "type": "string"
+                },
+                "groupname": {
+                 "type": "string"
+                },
+                "packversionid": {
+                 "type": "string"
+                },
+                "discountamount": {
+                 "type": "string"
+                },
+                "etamount": {
+                 "type": "string"
+                },
+                "freeaddoncount": {
+                 "type": "string"
+                },
+                "foc1count": {
+                 "type": "string"
+                },
+                "foc2count": {
+                 "type": "string"
+                },
+                "focsunflag": {
+                 "type": "string"
+                },
+                "familyid": {
+                 "type": "string"
+                },
+                "payableamount": {
+                 "type": "string"
+                },
+                "basepackonlinediscount": {
+                 "type": "string"
+                },
+                "ispromoplan": {
+                 "type": "string"
+                },
+                "refundamount": {
+                 "type": "string"
+                }
+               },
+               "required": [
+                "packname",
+                "planpoid",
+                "plancalltype",
+                "dealobj",
+                "planduration",
+                "servicesid",
+                "servicesaccountobj",
+                "servicespoid",
+                "planobj",
+                "productspoid",
+                "amount",
+                "packagename",
+                "deviceid",
+                "servicetype",
+                "planexpirydate",
+                "packageid",
+                "connectiontype",
+                "isfree",
+                "groupname",
+                "packversionid",
+                "discountamount",
+                "etamount",
+                "freeaddoncount",
+                "foc1count",
+                "foc2count",
+                "focsunflag",
+                "familyid",
+                "payableamount",
+                "basepackonlinediscount",
+                "ispromoplan",
+                "refundamount"
+               ]
+              },
+              {
+               "type": "object",
+               "properties": {
+                "packname": {
+                 "type": "string"
+                },
+                "planpoid": {
+                 "type": "string"
+                },
+                "plancalltype": {
+                 "type": "string"
+                },
+                "dealobj": {
+                 "type": "string"
+                },
+                "planduration": {
+                 "type": "string"
+                },
+                "servicesid": {
+                 "type": "string"
+                },
+                "servicesaccountobj": {
+                 "type": "string"
+                },
+                "servicespoid": {
+                 "type": "string"
+                },
+                "planobj": {
+                 "type": "string"
+                },
+                "productspoid": {
+                 "type": "string"
+                },
+                "amount": {
+                 "type": "string"
+                },
+                "packagename": {
+                 "type": "string"
+                },
+                "deviceid": {
+                 "type": "string"
+                },
+                "servicetype": {
+                 "type": "string"
+                },
+                "planexpirydate": {
+                 "type": "string"
+                },
+                "packageid": {
+                 "type": "string"
+                },
+                "connectiontype": {
+                 "type": "string"
+                },
+                "isfree": {
+                 "type": "string"
+                },
+                "groupname": {
+                 "type": "string"
+                },
+                "packversionid": {
+                 "type": "string"
+                },
+                "discountamount": {
+                 "type": "string"
+                },
+                "etamount": {
+                 "type": "string"
+                },
+                "freeaddoncount": {
+                 "type": "string"
+                },
+                "foc1count": {
+                 "type": "string"
+                },
+                "foc2count": {
+                 "type": "string"
+                },
+                "focsunflag": {
+                 "type": "string"
+                },
+                "familyid": {
+                 "type": "string"
+                },
+                "payableamount": {
+                 "type": "string"
+                },
+                "basepackonlinediscount": {
+                 "type": "string"
+                },
+                "ispromoplan": {
+                 "type": "string"
+                },
+                "refundamount": {
+                 "type": "string"
+                }
+               },
+               "required": [
+                "packname",
+                "planpoid",
+                "plancalltype",
+                "dealobj",
+                "planduration",
+                "servicesid",
+                "servicesaccountobj",
+                "servicespoid",
+                "planobj",
+                "productspoid",
+                "amount",
+                "packagename",
+                "deviceid",
+                "servicetype",
+                "planexpirydate",
+                "packageid",
+                "connectiontype",
+                "isfree",
+                "groupname",
+                "packversionid",
+                "discountamount",
+                "etamount",
+                "freeaddoncount",
+                "foc1count",
+                "foc2count",
+                "focsunflag",
+                "familyid",
+                "payableamount",
+                "basepackonlinediscount",
+                "ispromoplan",
+                "refundamount"
+               ]
+              },
+              {
+               "type": "object",
+               "properties": {
+                "packname": {
+                 "type": "string"
+                },
+                "planpoid": {
+                 "type": "string"
+                },
+                "plancalltype": {
+                 "type": "string"
+                },
+                "dealobj": {
+                 "type": "string"
+                },
+                "planduration": {
+                 "type": "string"
+                },
+                "servicesid": {
+                 "type": "string"
+                },
+                "servicesaccountobj": {
+                 "type": "string"
+                },
+                "servicespoid": {
+                 "type": "string"
+                },
+                "planobj": {
+                 "type": "string"
+                },
+                "productspoid": {
+                 "type": "string"
+                },
+                "amount": {
+                 "type": "string"
+                },
+                "packagename": {
+                 "type": "string"
+                },
+                "deviceid": {
+                 "type": "string"
+                },
+                "servicetype": {
+                 "type": "string"
+                },
+                "planexpirydate": {
+                 "type": "string"
+                },
+                "packageid": {
+                 "type": "string"
+                },
+                "connectiontype": {
+                 "type": "string"
+                },
+                "isfree": {
+                 "type": "string"
+                },
+                "groupname": {
+                 "type": "string"
+                },
+                "packversionid": {
+                 "type": "string"
+                },
+                "discountamount": {
+                 "type": "string"
+                },
+                "etamount": {
+                 "type": "string"
+                },
+                "freeaddoncount": {
+                 "type": "string"
+                },
+                "foc1count": {
+                 "type": "string"
+                },
+                "foc2count": {
+                 "type": "string"
+                },
+                "focsunflag": {
+                 "type": "string"
+                },
+                "familyid": {
+                 "type": "string"
+                },
+                "payableamount": {
+                 "type": "string"
+                },
+                "basepackonlinediscount": {
+                 "type": "string"
+                },
+                "ispromoplan": {
+                 "type": "string"
+                },
+                "refundamount": {
+                 "type": "string"
+                }
+               },
+               "required": [
+                "packname",
+                "planpoid",
+                "plancalltype",
+                "dealobj",
+                "planduration",
+                "servicesid",
+                "servicesaccountobj",
+                "servicespoid",
+                "planobj",
+                "productspoid",
+                "amount",
+                "packagename",
+                "deviceid",
+                "servicetype",
+                "planexpirydate",
+                "packageid",
+                "connectiontype",
+                "isfree",
+                "groupname",
+                "packversionid",
+                "discountamount",
+                "etamount",
+                "freeaddoncount",
+                "foc1count",
+                "foc2count",
+                "focsunflag",
+                "familyid",
+                "payableamount",
+                "basepackonlinediscount",
+                "ispromoplan",
+                "refundamount"
+               ]
+              },
+              {
+               "type": "object",
+               "properties": {
+                "packname": {
+                 "type": "string"
+                },
+                "planpoid": {
+                 "type": "string"
+                },
+                "plancalltype": {
+                 "type": "string"
+                },
+                "dealobj": {
+                 "type": "string"
+                },
+                "planduration": {
+                 "type": "string"
+                },
+                "servicesid": {
+                 "type": "string"
+                },
+                "servicesaccountobj": {
+                 "type": "string"
+                },
+                "servicespoid": {
+                 "type": "string"
+                },
+                "planobj": {
+                 "type": "string"
+                },
+                "productspoid": {
+                 "type": "string"
+                },
+                "amount": {
+                 "type": "string"
+                },
+                "packagename": {
+                 "type": "string"
+                },
+                "deviceid": {
+                 "type": "string"
+                },
+                "servicetype": {
+                 "type": "string"
+                },
+                "planexpirydate": {
+                 "type": "string"
+                },
+                "packageid": {
+                 "type": "string"
+                },
+                "connectiontype": {
+                 "type": "string"
+                },
+                "isfree": {
+                 "type": "string"
+                },
+                "groupname": {
+                 "type": "string"
+                },
+                "packversionid": {
+                 "type": "string"
+                },
+                "discountamount": {
+                 "type": "string"
+                },
+                "etamount": {
+                 "type": "string"
+                },
+                "freeaddoncount": {
+                 "type": "string"
+                },
+                "foc1count": {
+                 "type": "string"
+                },
+                "foc2count": {
+                 "type": "string"
+                },
+                "focsunflag": {
+                 "type": "string"
+                },
+                "familyid": {
+                 "type": "string"
+                },
+                "payableamount": {
+                 "type": "string"
+                },
+                "basepackonlinediscount": {
+                 "type": "string"
+                },
+                "ispromoplan": {
+                 "type": "string"
+                },
+                "refundamount": {
+                 "type": "string"
+                }
+               },
+               "required": [
+                "packname",
+                "planpoid",
+                "plancalltype",
+                "dealobj",
+                "planduration",
+                "servicesid",
+                "servicesaccountobj",
+                "servicespoid",
+                "planobj",
+                "productspoid",
+                "amount",
+                "packagename",
+                "deviceid",
+                "servicetype",
+                "planexpirydate",
+                "packageid",
+                "connectiontype",
+                "isfree",
+                "groupname",
+                "packversionid",
+                "discountamount",
+                "etamount",
+                "freeaddoncount",
+                "foc1count",
+                "foc2count",
+                "focsunflag",
+                "familyid",
+                "payableamount",
+                "basepackonlinediscount",
+                "ispromoplan",
+                "refundamount"
+               ]
+              }
+             ]
+            }
+           },
+           "required": [
+            "planexpirydetail"
+           ]
+          },
+          "renewamount": {
+           "type": "string"
+          },
+          "subtotal": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "devicedetails",
+          "plandetails",
+          "planexpirydetails",
+          "renewamount",
+          "subtotal"
+         ]
+        }
+       ]
+      }
+     },
+     "required": [
+      "service"
+     ]
+    },
+    "nearestplanexpirydate": {
+     "type": "string"
+    },
+    "promostatusid": {
+     "type": "string"
+    },
+    "promomessage": {
+     "type": "string"
+    },
+    "nearestplanexpirydatetext": {
+     "type": "string"
+    },
+    "total": {
+     "type": "string"
+    },
+    "billdetails": {
+     "type": "object",
+     "properties": {
+      "billinfo": {
+       "type": "array",
+       "items": [
+        {
+         "type": "object",
+         "properties": {
+          "billno": {
+           "type": "string"
+          },
+          "amount": {
+           "type": "string"
+          },
+          "date": {
+           "type": "string"
+          },
+          "rechargeamount": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "billno",
+          "amount",
+          "date",
+          "rechargeamount"
+         ]
+        }
+       ]
+      }
+     },
+     "required": [
+      "billinfo"
+     ]
+    }
+   },
+   "required": [
+    "basicdetails",
+    "services",
+    "nearestplanexpirydate",
+    "promostatusid",
+    "promomessage",
+    "nearestplanexpirydatetext",
+    "total",
+    "billdetails"
+   ]
+  }
+ },
+ "required": [
+  "userdetails"
+ ]
+}
